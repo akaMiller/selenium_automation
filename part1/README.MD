@@ -1,9 +1,10 @@
-Папка user-case содержит кейсы для автоматизации.
-Папка code содержит файлы автоматизированный тест-кейсы.
-
-Первая часть задания:
+### Описание
+Папка [user-case](https://github.com/akaMiller/selenium_automation/tree/main/part1/user-case) содержит кейсы для автоматизации.  
+Папка [code](https://github.com/akaMiller/selenium_automation/tree/main/part1/code) содержит файлы автоматизированный тест-кейсы.
 
 ---
+
+### Первая часть задания:
 
 Необходимо написать автотесты для сайта saucedemo: Ссылка на сайт: https://www.saucedemo.com/
 
