@@ -1,1 +1,1 @@
-Проект по автоматизации сайта https://www.saucedemo.com/v1/
+Проект по автоматизации сайта https://www.saucedemo.com/
