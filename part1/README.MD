@@ -1,6 +1,6 @@
 ### Описание
 Папка [user-case](https://github.com/akaMiller/selenium_automation/tree/main/part1/user-case) содержит кейсы для автоматизации.  
-Папка [code](https://github.com/akaMiller/selenium_automation/tree/main/part1/code) содержит файлы автоматизированный тест-кейсы.
+Папка [code](https://github.com/akaMiller/selenium_automation/tree/main/part1/code) содержит автоматизированные тест-кейсы.
 
 ---
 

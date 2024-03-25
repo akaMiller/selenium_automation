@@ -7,4 +7,4 @@
 4. Кликнуть 'Login'
 5. Проверить, что мы перешли на новый URL https://www.saucedemo.com/v1/inventory .
 
-[Автоматизированный кейс](https://github.com/akaMiller/selenium_automation/blob/main/part1/code/test_case01_auth_with_correct_data.py)
+[Автоматизированный кейс 1](https://github.com/akaMiller/selenium_automation/blob/main/part1/code/test_case01_auth_with_correct_data.py)
