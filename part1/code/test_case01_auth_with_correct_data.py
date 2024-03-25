@@ -1,6 +1,9 @@
+## Авторизация используя корректные данные
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import pytest
+
 
 browser = webdriver.Chrome()
 
