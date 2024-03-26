@@ -13,5 +13,5 @@ def test_auth_negative():
     browser.find_element('xpath', '//*[@id="user-name"]').send_keys('user')
     browser.find_element(By.XPATH, '//*[@id="password"]').send_keys('user')
     browser.find_element(By.XPATH, '//*[@id="login-button"]').click()
-    assert browser.current_url == 'https://www.saucedemo.com/v1/', 'URL не соотвествует ожидаемому'
+    assert browser.find_element(By.CLASS_NAME, 'error-button'), 'Нет кнопки ошибки!!!'
     browser.quit()
