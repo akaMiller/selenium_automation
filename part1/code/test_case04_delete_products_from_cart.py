@@ -18,9 +18,12 @@ def test_delete_products_from_cart():
     browser.find_element(By.CSS_SELECTOR, ".inventory_item:first-of-type button[class='btn_primary btn_inventory']").click()
     browser.find_element(By.CSS_SELECTOR,
                          '.inventory_item:nth-child(2) button[class="btn_primary btn_inventory"]').click()
+    # browser.find_element(By.CSS_SELECTOR,
+    #                      '.inventory_item:nth-child(3) button[class="btn_primary btn_inventory"]').click()
     browser.find_element(By.CSS_SELECTOR, '.shopping_cart_container').click()
     browser.implicitly_wait(0.5)
     browser.find_element(By.CSS_SELECTOR, '.cart_item:nth-child(3) button[class="btn_secondary cart_button"]').click()
     browser.find_element(By.CSS_SELECTOR, '.cart_item:nth-child(4) button[class="btn_secondary cart_button"]').click()
-    assert len(browser.find_element(By.CSS_SELECTOR, "span[class='fa-layers-counter shopping_cart_badge']")) == 0
+    assert 'fa-layers-counter shopping_cart_badge' not in browser.page_source
+    # assert browser.find_element(By.CSS_SELECTOR, "span[class='fa-layers-counter shopping_cart_badge']").size == 0
     browser.quit()
