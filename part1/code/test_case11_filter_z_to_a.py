@@ -10,7 +10,7 @@ import auth_user
 browser = webdriver.Chrome()
 def test_filter_z_to_a():
     auth_user.auth_user(browser)
-    #сортируем по az
+    #сортируем по Z to A
     dropdown = Select(browser.find_element(By.CSS_SELECTOR, "select[class='product_sort_container']"))
     dropdown.select_by_value("za")
     #Получаем имена продуктов на странице

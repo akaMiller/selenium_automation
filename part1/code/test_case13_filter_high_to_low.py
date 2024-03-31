@@ -11,7 +11,7 @@ browser = webdriver.Chrome()
 
 def test_filter_high_to_low():
     auth_user.auth_user(browser)
-    # сортируем по az
+    # сортируем по High to Low
     dropdown = Select(browser.find_element(By.CSS_SELECTOR, "select[class='product_sort_container']"))
     dropdown.select_by_value("hilo")
     # Получаем имена продуктов на странице
