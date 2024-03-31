@@ -1,12 +1,11 @@
-## Добавление товара в корзину через каталог
+# Добавление товара в корзину через каталог
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-import pytest
 import auth_user
 
-
 browser = webdriver.Chrome()
+
 
 def test_add_products_from_catalog():
     auth_user.auth_user(browser)

@@ -1,13 +1,12 @@
-## Удаление товара из корзины через корзину
+# Удаление товара из корзины через корзину
 
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-import pytest
 import auth_user
 
-
 browser = webdriver.Chrome()
+
 
 def test_delete_products_from_cart():
     auth_user.auth_user(browser)

@@ -1,8 +1,7 @@
-## Добавление товара в корзину из карточки товара
+# Добавление товара в корзину из карточки товара
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-import pytest
 import auth_user
 
 
@@ -22,4 +21,3 @@ def test_add_product_from_card_product():
     cart = browser.find_element(By.CSS_SELECTOR, "span[class='fa-layers-counter shopping_cart_badge']")
     assert cart.text == '1', 'В корзине не один товара!!!'
     browser.quit()
-
