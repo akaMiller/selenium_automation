@@ -8,7 +8,7 @@ import auth_user
 
 
 browser = webdriver.Chrome()
-def test_filter_a_to_a():
+def test_filter_z_to_a():
     auth_user.auth_user(browser)
     #сортируем по az
     dropdown = Select(browser.find_element(By.CSS_SELECTOR, "select[class='product_sort_container']"))
