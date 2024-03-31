@@ -19,5 +19,5 @@ def test_filter_z_to_a():
     for product in products:
         products_name.append(product.text)
     #Сравниваем с учетом сортировки
-    assert products_name == sorted(products_name, reverse=True), 'Фильтр AZ не работает!!!'
+    assert products_name == sorted(products_name, reverse=True), 'Фильтр Z to A не работает!!!'
     browser.quit()
